@@ -1,0 +1,35 @@
+.App {
+    width: 40%;
+    margin: 5% 0 0 30%;
+}
+
+.Tab{
+    display: flex;
+    justify-content: space-between;
+}
+
+.containers {
+    background: #A2A2A1FF;
+    padding: 1.250rem 2.5rem;
+    color: $white;
+    font-weight: 600;
+    box-shadow: 0.450rem -0.5rem 0.8rem -0.350rem rgba(#195190,.8);
+
+}
+.signUp, .signIn{
+    background-color: #A2A2A1FF;
+    width:50%;
+    font-size: 22px;
+    color: $white;
+    padding: 10px;
+    text-align: center;
+    &:hover{
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+.activeLink{
+    color: $white;
+    background-color: #195190FF;
+}
